@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MemeBot // Trading Desk</title>
+<style>
+  :root{
+    --bg:#07060a; --panel:#0f0c14; --line:#2a1f33; --txt:#f4eefa; --mut:#8a7d99;
+    --acc:#ff6a2b; --acc2:#ff2bd6; --cy:#29e7ff; --g:#2bff88; --r:#ff3b5c;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:var(--bg);color:var(--txt);font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
+  body{min-height:100vh;overflow-x:hidden}
+  body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+    background:radial-gradient(900px 500px at 15% -10%,#ff6a2b22,transparent 60%),
+               radial-gradient(800px 500px at 110% 10%,#ff2bd61f,transparent 60%),
+               radial-gradient(700px 600px at 50% 120%,#29e7ff14,transparent 60%)}
+  body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.07;
+    background:repeating-linear-gradient(0deg,#fff 0 1px,transparent 1px 3px)}
+  .wrap{position:relative;z-index:1;max-width:1180px;margin:auto;padding:18px}
+  .panel{background:linear-gradient(180deg,#140f1bcc,#0c0a11cc);border:1px solid var(--line);border-radius:18px;padding:18px;
+    box-shadow:0 0 0 1px #ffffff05 inset,0 20px 60px #0008;backdrop-filter:blur(6px);margin-bottom:16px;
+    opacity:0;transform:translateY(14px);animation:in .7s cubic-bezier(.2,.8,.2,1) forwards}
+  .panel:nth-child(2){animation-delay:.08s}.panel:nth-child(3){animation-delay:.16s}.panel:nth-child(4){animation-delay:.24s}
+  @keyframes in{to{opacity:1;transform:none}}
+  .lbl{color:var(--mut);font-size:11px;letter-spacing:2px;text-transform:uppercase}
+
+  /* HEADER */
+  .top{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+  .brand{display:flex;align-items:center;gap:14px}
+  .logo{width:54px;height:54px;border-radius:14px;display:grid;place-items:center;font-size:28px;
+    background:linear-gradient(135deg,var(--acc),var(--acc2));box-shadow:0 0 30px #ff6a2b88;animation:bob 3s ease-in-out infinite}
+  @keyframes bob{50%{transform:translateY(-4px) rotate(-3deg)}}
+  h1{font-size:24px;letter-spacing:.5px}
+  h1 em{font-style:normal;background:linear-gradient(90deg,var(--acc),var(--acc2));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .live{display:inline-flex;align-items:center;gap:6px;font-size:11px;color:var(--g);margin-top:6px}
+  .live i{width:8px;height:8px;border-radius:50%;background:var(--g);box-shadow:0 0 10px var(--g);animation:pulse 1.4s infinite}
+  @keyframes pulse{50%{opacity:.25;transform:scale(.7)}}
+  .demo{border:1px solid #ff6a2b66;color:var(--acc);border-radius:6px;padding:2px 7px;font-size:10px;margin-left:8px}
+  .bal{text-align:right}
+  .bal .v{font-size:44px;font-weight:800;letter-spacing:-1px;text-shadow:0 0 24px #ffffff22}
+  .bal .c{font-size:14px;margin-top:2px}
+  .pos{color:var(--g)}.neg{color:var(--r)}
+
+  /* GRID */
+  .grid{display:grid;grid-template-columns:1.25fr 1fr;gap:16px}
+  @media(max-width:860px){.grid{grid-template-columns:1fr}.bal{text-align:left}.bal .v{font-size:36px}}
+
+  /* ORBIT */
+  #orbit{width:100%;height:auto;display:block}
+  .node rect{fill:#120e18;stroke:#3a2b46;stroke-width:1.2;transition:all .35s}
+  .node text{fill:var(--txt);font-size:11px}
+  .node .s{fill:var(--mut);font-size:9px}
+  .node.on rect{stroke:var(--cy);fill:#0d1d24;filter:url(#glow)}
+  .node.on text{fill:#fff}
+  .wire{stroke:#3a2b46;stroke-width:1}
+  .wire.on{stroke:var(--cy);stroke-width:1.6;stroke-dasharray:6 6;animation:flow .6s linear infinite}
+  @keyframes flow{to{stroke-dashoffset:-12}}
+  .core-ring{fill:none;stroke:var(--acc);stroke-width:2;opacity:.5;transform-origin:center;transform-box:fill-box;animation:spin 8s linear infinite}
+  .core-ring.b{stroke:var(--acc2);animation-duration:12s;animation-direction:reverse;stroke-dasharray:4 10}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .think{fill:var(--acc);font-size:12px}
+
+  /* STATS */
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}
+  .st{border:1px solid var(--line);border-radius:12px;padding:10px 12px;background:#0b0910}
+  .st .v{font-size:20px;font-weight:700;margin-top:4px}
+  .donut{display:flex;align-items:center;gap:16px}
+  .donut svg{width:110px;height:110px}
+
+  /* CHART */
+  #chart{width:100%;height:230px;display:block}
+  .draw{stroke-dasharray:3000;stroke-dashoffset:3000;animation:draw 1.6s ease forwards}
+  @keyframes draw{to{stroke-dashoffset:0}}
+
+  /* FEED */
+  .feed{font-size:12px;max-height:330px;overflow:auto}
+  .row{display:grid;grid-template-columns:auto 1fr auto auto;gap:10px;align-items:center;padding:9px 6px;border-bottom:1px dashed #2a1f33;
+    animation:slide .45s ease both}
+  @keyframes slide{from{opacity:0;transform:translateX(-10px)}}
+  .pill{font-size:10px;padding:3px 7px;border-radius:999px;border:1px solid}
+  .pill.tp{color:var(--g);border-color:#2bff8855}.pill.sl{color:var(--r);border-color:#ff3b5c55}.pill.ot{color:var(--cy);border-color:#29e7ff55}
+  .sym{font-weight:700}
+  .tm{color:var(--mut);font-size:10px}
+  .flash{animation:flash 1.2s ease}
+  @keyframes flash{0%{background:#2bff8833}100%{background:transparent}}
+  .empty{color:var(--mut);font-size:13px;padding:14px 4px}
+  .ticker{overflow:hidden;white-space:nowrap;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:8px 0;margin-bottom:16px;font-size:12px;color:var(--mut)}
+  .ticker span{display:inline-block;padding-left:100%;animation:tick 40s linear infinite}
+  @keyframes tick{to{transform:translateX(-100%)}}
+  footer{color:var(--mut);font-size:11px;text-align:center;padding:8px 0 24px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="panel top">
+    <div class="brand">
+      <div class="logo">🤖</div>
+      <div>
+        <h1><em>MemeBot</em> Trading Desk <span class="demo">DEMO</span></h1>
+        <div class="live"><i></i> LIVE · Solana · 12/12 agents online · <span id="upd">--</span></div>
+      </div>
+    </div>
+    <div class="bal">
+      <div class="lbl">Balance</div>
+      <div class="v" id="bal">$0.00</div>
+      <div class="c" id="chg">--</div>
+    </div>
+  </div>
+
+  <div class="ticker"><span id="tick">Scanning Solana meme coins...</span></div>
+
+  <div class="grid">
+    <div class="panel">
+      <div class="lbl">12 agents → Head Trader</div>
+      <svg id="orbit" viewBox="0 0 640 520"></svg>
+    </div>
+
+    <div class="panel">
+      <div class="lbl">Performance</div>
+      <div class="donut" style="margin-top:12px">
+        <svg viewBox="0 0 120 120">
+          <circle cx="60" cy="60" r="48" fill="none" stroke="#2a1f33" stroke-width="12"/>
+          <circle id="arc" cx="60" cy="60" r="48" fill="none" stroke="url(#gwin)" stroke-width="12" stroke-linecap="round"
+            stroke-dasharray="0 302" transform="rotate(-90 60 60)" style="transition:stroke-dasharray 1.4s ease"/>
+          <defs><linearGradient id="gwin"><stop offset="0" stop-color="#2bff88"/><stop offset="1" stop-color="#29e7ff"/></linearGradient></defs>
+          <text x="60" y="58" text-anchor="middle" fill="#fff" font-size="22" font-weight="700" id="wr">0%</text>
+          <text x="60" y="76" text-anchor="middle" fill="#8a7d99" font-size="9">WIN RATE</text>
+        </svg>
+        <div>
+          <div class="lbl">Win / Loss</div>
+          <div style="font-size:26px;font-weight:800;margin-top:4px"><span class="pos" id="w">0</span> <span style="color:#555">/</span> <span class="neg" id="l">0</span></div>
+          <div class="tm" style="margin-top:6px" id="nt">0 trades</div>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="st"><div class="lbl">Best</div><div class="v pos" id="best">--</div></div>
+        <div class="st"><div class="lbl">Worst</div><div class="v neg" id="worst">--</div></div>
+        <div class="st"><div class="lbl">Open</div><div class="v" id="op" style="color:var(--cy)">0</div></div>
+      </div>
+      <div class="lbl" style="margin-top:16px">Positions m7loulin</div>
+      <div id="open" class="feed" style="max-height:140px"></div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="lbl">Balance curve (realized)</div>
+    <svg id="chart" viewBox="0 0 1000 230" preserveAspectRatio="none"></svg>
+  </div>
+
+  <div class="panel">
+    <div class="lbl">Trade feed</div>
+    <div class="feed" id="feed"></div>
+  </div>
+
+  <footer>DEMO / PAPER TRADING · ma kayn 7ta flous 7a9i9iya · kaytjedded kol d9i9a</footer>
+</div>
+
+<script>
+const START = 150;
+const AGENTS = [
+  ["SCOUT","tokens jdad"],["DATA FEED","DexScreener"],["AGE FILTER","10m → 24h"],
+  ["LIQUIDITY","min $15k"],["VOLUME FLOW","min $3k/5m"],["BUY PRESSURE","buys/sells ≥1.3"],
+  ["MOMENTUM","tal3 machi qmma"],["RUG CHECK","FDV/liq ≤40"],["RISK GATE","max 3 open"],
+  ["SIZER","10% / trade"],["EXIT MGR","TP +30 · SL −15"],["FEES SIM","1% slippage"]
+];
+const THOUGHTS = ["scanning Solana...","checking liquidity...","reading buys/sells...","rug check...","sizing position...","waiting for setup...","watching exits..."];
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+/* ---------- ORBIT ---------- */
+const svg = document.getElementById("orbit");
+const CX = 320, CY = 260, R = 200;
+let html = `<defs>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="cg"><stop offset="0" stop-color="#ff6a2b"/><stop offset="1" stop-color="#ff2bd6"/></radialGradient></defs>`;
+const pos = AGENTS.map((_, i) => {
+  const a = -Math.PI / 2 + i * 2 * Math.PI / AGENTS.length;
+  return [CX + R * Math.cos(a) * 1.25, CY + R * Math.sin(a)];
+});
+pos.forEach((p, i) => html += `<line class="wire" id="w${i}" x1="${CX}" y1="${CY}" x2="${p[0]}" y2="${p[1]}"/>`);
+html += `<circle cx="${CX}" cy="${CY}" r="62" class="core-ring"/><circle cx="${CX}" cy="${CY}" r="74" class="core-ring b"/>
+  <circle cx="${CX}" cy="${CY}" r="48" fill="url(#cg)" filter="url(#glow)"/>
+  <text x="${CX}" y="${CY+8}" text-anchor="middle" font-size="26">🤖</text>
+  <text x="${CX}" y="${CY+100}" text-anchor="middle" fill="#fff" font-size="12" font-weight="700">HEAD TRADER</text>
+  <text x="${CX}" y="${CY+118}" text-anchor="middle" class="think" id="think">booting...</text>`;
+AGENTS.forEach((a, i) => {
+  const [x, y] = pos[i];
+  html += `<g class="node" id="n${i}"><rect x="${x-62}" y="${y-19}" width="124" height="38" rx="9"/>
+    <text x="${x}" y="${y-2}" text-anchor="middle" font-weight="700">${a[0]}</text>
+    <text x="${x}" y="${y+12}" text-anchor="middle" class="s">${a[1]}</text></g>`;
+});
+svg.innerHTML = html;
+
+let cur = 0;
+setInterval(() => {
+  document.querySelectorAll(".node.on,.wire.on").forEach(e => e.classList.remove("on"));
+  const k = [cur % 12, (cur + 5) % 12];
+  k.forEach(i => { document.getElementById("n" + i).classList.add("on"); document.getElementById("w" + i).classList.add("on"); });
+  document.getElementById("think").textContent = THOUGHTS[cur % THOUGHTS.length];
+  cur++;
+}, 1100);
+
+/* ---------- DATA ---------- */
+function parseCSV(t){
+  const L = t.trim().split(/\r?\n/); if(L.length < 2) return [];
+  const H = L[0].split(",");
+  return L.slice(1).map(l => { const c = l.split(","), o = {}; H.forEach((h,i) => o[h] = c[i]);
+    o.pnl_pct = +o.pnl_pct; o.pnl_usd = +o.pnl_usd; return o; });
+}
+async function get(p){ const r = await fetch(p + "?t=" + Date.now(), {cache:"no-store"}); if(!r.ok) throw 0; return r; }
+
+let shownBal = 0, lastCount = -1;
+function animateBal(target){
+  const from = shownBal, t0 = performance.now(), el = document.getElementById("bal");
+  (function step(t){
+    const k = Math.min(1, (t - t0) / 1200), e = 1 - Math.pow(1 - k, 3);
+    shownBal = from + (target - from) * e;
+    el.textContent = "$" + shownBal.toFixed(2);
+    if(k < 1) requestAnimationFrame(step);
+  })(t0);
+}
+
+function drawChart(tr){
+  const s = document.getElementById("chart");
+  const pts = [START]; let b = START; tr.forEach(t => { b += t.pnl_usd || 0; pts.push(b); });
+  if(pts.length < 2){ s.innerHTML = `<text x="30" y="120" fill="#8a7d99" font-size="26">Mazal ma kayn 7ta trade... lbot kaytsenna setup 👀</text>`; return; }
+  const mn = Math.min(...pts), mx = Math.max(...pts), pd = (mx - mn) * .15 || 1, lo = mn - pd, hi = mx + pd;
+  const X = i => i / (pts.length - 1) * 1000, Y = v => 220 - (v - lo) / (hi - lo) * 205;
+  const d = pts.map((v,i) => (i ? "L" : "M") + X(i).toFixed(1) + " " + Y(v).toFixed(1)).join(" ");
+  const up = b >= START, c = up ? "#2bff88" : "#ff3b5c";
+  s.innerHTML = `<defs><linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${c}" stop-opacity=".35"/><stop offset="1" stop-color="${c}" stop-opacity="0"/></linearGradient></defs>
+    ${[0,1,2,3].map(i => `<line x1="0" x2="1000" y1="${15+i*68}" y2="${15+i*68}" stroke="#ffffff0a"/>`).join("")}
+    <line x1="0" x2="1000" y1="${Y(START)}" y2="${Y(START)}" stroke="#ff6a2b66" stroke-dasharray="8 8"/>
+    <text x="6" y="${Y(START)-6}" fill="#ff6a2b" font-size="13">start $${START}</text>
+    <path d="${d} L1000 230 L0 230 Z" fill="url(#fg)"/>
+    <path class="draw" d="${d}" fill="none" stroke="${c}" stroke-width="3" style="filter:drop-shadow(0 0 6px ${c})"/>
+    ${pts.slice(1).map((v,i) => `<circle cx="${X(i+1)}" cy="${Y(v)}" r="5" fill="${tr[i].pnl_usd >= 0 ? "#2bff88" : "#ff3b5c"}" stroke="#07060a" stroke-width="2"/>`).join("")}`;
+}
+
+async function load(){
+  let tr = [], st = null;
+  try { tr = parseCSV(await (await get("trades.csv")).text()); } catch(e){}
+  try { st = await (await get("state.json")).json(); } catch(e){}
+
+  const open = st ? Object.values(st.positions || {}) : [];
+  const total = st ? st.balance + open.reduce((s,p) => s + p.size, 0) : START + tr.reduce((s,t) => s + (t.pnl_usd||0), 0);
+  const chg = (total - START) / START * 100;
+  animateBal(total);
+  const ce = document.getElementById("chg");
+  ce.innerHTML = `${chg >= 0 ? "▲" : "▼"} ${chg >= 0 ? "+" : ""}${chg.toFixed(2)}% <span style="color:#8a7d99">from $${START}</span>`;
+  ce.className = "c " + (chg >= 0 ? "pos" : "neg");
+
+  const w = tr.filter(t => t.pnl_usd > 0).length, l = tr.length - w, wr = tr.length ? w / tr.length : 0;
+  document.getElementById("w").textContent = w;
+  document.getElementById("l").textContent = l;
+  document.getElementById("nt").textContent = tr.length + " trades closed";
+  document.getElementById("wr").textContent = Math.round(wr * 100) + "%";
+  document.getElementById("arc").setAttribute("stroke-dasharray", `${(wr * 302).toFixed(1)} 302`);
+  if(tr.length){
+    const b = tr.reduce((a,x) => x.pnl_pct > a.pnl_pct ? x : a), z = tr.reduce((a,x) => x.pnl_pct < a.pnl_pct ? x : a);
+    document.getElementById("best").textContent = "+" + b.pnl_pct.toFixed(1) + "%";
+    document.getElementById("worst").textContent = z.pnl_pct.toFixed(1) + "%";
+  }
+  document.getElementById("op").textContent = open.length;
+  document.getElementById("open").innerHTML = open.length
+    ? open.map(p => `<div class="row"><span class="pill ot">OPEN</span><span class="sym">${esc(p.symbol)}</span><span>$${p.size.toFixed(2)}</span><span class="tm">${Math.round((Date.now()/1000 - p.opened)/60)}m</span></div>`).join("")
+    : `<div class="empty">Flat · scanning for setups...</div>`;
+
+  drawChart(tr);
+
+  const isNew = lastCount >= 0 && tr.length > lastCount;
+  document.getElementById("feed").innerHTML = tr.length
+    ? tr.slice().reverse().slice(0, 60).map((t, i) => {
+        const c = t.pnl_usd >= 0 ? "pos" : "neg";
+        const p = /take/.test(t.reason) ? "tp" : /stop/.test(t.reason) ? "sl" : "ot";
+        return `<div class="row ${isNew && i === 0 ? "flash" : ""}" style="animation-delay:${i * 0.04}s">
+          <span class="pill ${p}">${esc(t.reason).toUpperCase()}</span>
+          <span><span class="sym">${esc(t.symbol)}</span><br><span class="tm">${esc(t.time)} UTC</span></span>
+          <span class="${c}" style="font-weight:700">${t.pnl_pct >= 0 ? "+" : ""}${t.pnl_pct.toFixed(1)}%</span>
+          <span class="${c}">${t.pnl_usd >= 0 ? "+" : "-"}$${Math.abs(t.pnl_usd).toFixed(2)}</span></div>`;
+      }).join("")
+    : `<div class="empty">Mazal ma kayn 7ta trade. Lbot kaytsenna setup mzyan 🎯</div>`;
+  lastCount = tr.length;
+
+  document.getElementById("tick").textContent = tr.length
+    ? tr.slice(-12).map(t => `${t.symbol} ${t.pnl_pct >= 0 ? "▲ +" : "▼ "}${t.pnl_pct.toFixed(1)}%`).join("   •   ") + `   •   BALANCE $${total.toFixed(2)}   •   ${w}W / ${l}L`
+    : "Scanning Solana meme coins · 12 agents online · waiting for the first setup...";
+  document.getElementById("upd").textContent = "upd " + new Date().toLocaleTimeString();
+}
+load(); setInterval(load, 60000);
+</script>
+</body>
+</html>
