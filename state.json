@@ -1,0 +1,27 @@
+{
+  "balance": 123.58463510585703,
+  "positions": {
+    "4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn": {
+      "symbol": "Memeployed",
+      "entry": 8.73751e-05,
+      "peak": 8.73751e-05,
+      "size": 15.26,
+      "opened": 1795560821.1563272
+    },
+    "5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": {
+      "symbol": "DONJENSEN",
+      "entry": 0.0010534300000000002,
+      "peak": 0.0010534300000000002,
+      "size": 13.73,
+      "opened": 1795560821.1564243
+    }
+  },
+  "seen": [
+    "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
+    "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
+    "4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn",
+    "5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump"
+  ],
+  "wins": 1,
+  "losses": 1
+}
