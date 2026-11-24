@@ -1,27 +1,31 @@
 {
-  "balance": 123.58463510585703,
+  "balance": 137.8914261282182,
   "positions": {
-    "4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn": {
-      "symbol": "Memeployed",
-      "entry": 8.73751e-05,
-      "peak": 8.73751e-05,
-      "size": 15.26,
-      "opened": 1795560821.1563272
+    "GisWWjhwrSud4aFGSHvTMt85Ky14sY7LeBFCpfoFpump": {
+      "symbol": "Jimmies",
+      "entry": 0.000159277,
+      "peak": 0.0001953,
+      "size": 15.67,
+      "opened": 1795563189.3473423
     },
-    "5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": {
-      "symbol": "DONJENSEN",
-      "entry": 0.0010534300000000002,
-      "peak": 0.0010534300000000002,
-      "size": 13.73,
-      "opened": 1795560821.1564243
+    "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": {
+      "symbol": "4CHAN",
+      "entry": 0.00032097800000000003,
+      "peak": 0.00032097800000000003,
+      "size": 15.32,
+      "opened": 1795563854.8796115
     }
   },
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
     "4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn",
-    "5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump"
+    "5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump",
+    "GisWWjhwrSud4aFGSHvTMt85Ky14sY7LeBFCpfoFpump",
+    "816BuXnCFQqt6KXbBTcFgHWD29Ckpaqt8HMKSN4Vpump",
+    "9guNcpbsmqcKJikLNBcn8g5AoG3v9k98zK51KcoXpump",
+    "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump"
   ],
-  "wins": 1,
-  "losses": 1
+  "wins": 4,
+  "losses": 2
 }
