@@ -1,6 +1,14 @@
 {
-  "balance": 144.36303691904482,
-  "positions": {},
+  "balance": 135.33382818357995,
+  "positions": {
+    "Hvi9xTj6vWCypxEZh3mCbiS9Ywshex8LyYAdBt7Epump": {
+      "symbol": "KYM",
+      "entry": 5.56712e-05,
+      "peak": 5.56712e-05,
+      "size": 15.04,
+      "opened": 1795615771.6006706
+    }
+  },
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
@@ -25,8 +33,10 @@
     "4UMErmfmKzDCVmHrwBUbnDnbQnVKVYAcT7X5AdTkpump",
     "2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy",
     "96qfge1RkUWhSsv8i9V4QZFANGypKEe1u7pzCDGGpump",
-    "38EDdUxnJvrnDsJyB45E2W3pK26qLEjmWTvsEmMuG9ZR"
+    "38EDdUxnJvrnDsJyB45E2W3pK26qLEjmWTvsEmMuG9ZR",
+    "3wrZTXRbMk3pCXmmNDWqkaowSsxGzhTnmhPTSXYApump",
+    "Hvi9xTj6vWCypxEZh3mCbiS9Ywshex8LyYAdBt7Epump"
   ],
-  "wins": 10,
+  "wins": 11,
   "losses": 14
 }
