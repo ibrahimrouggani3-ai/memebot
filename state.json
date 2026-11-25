@@ -1,19 +1,19 @@
 {
-  "balance": 137.8914261282182,
+  "balance": 136.74922164388892,
   "positions": {
-    "GisWWjhwrSud4aFGSHvTMt85Ky14sY7LeBFCpfoFpump": {
-      "symbol": "Jimmies",
-      "entry": 0.000159277,
-      "peak": 0.0001953,
-      "size": 15.67,
-      "opened": 1795563189.3473423
-    },
     "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": {
       "symbol": "4CHAN",
       "entry": 0.00032097800000000003,
-      "peak": 0.00032097800000000003,
+      "peak": 0.000337,
       "size": 15.32,
       "opened": 1795563854.8796115
+    },
+    "Ea7ADHtZdQVre2mTBbN9Ps3TBraR6n5GUamGF9Ftpump": {
+      "symbol": "TELEDROID",
+      "entry": 5.68125e-05,
+      "peak": 5.85e-05,
+      "size": 15.19,
+      "opened": 1795567210.8624153
     }
   },
   "seen": [
@@ -24,8 +24,12 @@
     "GisWWjhwrSud4aFGSHvTMt85Ky14sY7LeBFCpfoFpump",
     "816BuXnCFQqt6KXbBTcFgHWD29Ckpaqt8HMKSN4Vpump",
     "9guNcpbsmqcKJikLNBcn8g5AoG3v9k98zK51KcoXpump",
-    "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump"
+    "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump",
+    "E2MJUFBMaTH7j21P2HncB96erJ4dM3FPL2W6i8Dpump",
+    "4M1tpKSat8qWnJk6pskUBciw4PBvXt4gNMc36NV8pump",
+    "E35iEA2yLLHc1tjm6et1Z3YuH8DhxJYWtWezPHgSpump",
+    "Ea7ADHtZdQVre2mTBbN9Ps3TBraR6n5GUamGF9Ftpump"
   ],
-  "wins": 4,
-  "losses": 2
+  "wins": 6,
+  "losses": 4
 }
