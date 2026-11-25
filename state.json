@@ -1,6 +1,14 @@
 {
-  "balance": 144.64828195285946,
-  "positions": {},
+  "balance": 134.5829806921538,
+  "positions": {
+    "5RBADXvDkgz22wF9gzS7BMEFNyvCYqbkomXWjy4pump": {
+      "symbol": "RECORDEGG",
+      "entry": 8.68903e-05,
+      "peak": 0.0001125,
+      "size": 12.83,
+      "opened": 1795631560.9173932
+    }
+  },
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
@@ -36,8 +44,13 @@
     "Bg74niwsyZFFxPhY8J47crDtDSUctKZEb1AuZL93pump",
     "As3XtYSstuVdrVyb6sJZZ77Tu8JvjTBg6S6hgPv4pump",
     "AGazYig7A8Co6ZapAPterBRLitdiP6AAaWiPH8jWLend",
-    "BvnzzK6CBRkUz1EwhxVU1nSNYyNRmVovcz2jRg9Rpump"
+    "BvnzzK6CBRkUz1EwhxVU1nSNYyNRmVovcz2jRg9Rpump",
+    "6TAEsBQuHki4C6ynUmWARpjJ1xmKshrqv7Qh1FHwpump",
+    "437T35ficBfJK9N8GH4gWbiHb86AsRJRkQjARd7Ppump",
+    "6F2FyeyphDn62TFkXXpisUCohotPArgiM1kVXsPNpump",
+    "9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump",
+    "5RBADXvDkgz22wF9gzS7BMEFNyvCYqbkomXWjy4pump"
   ],
-  "wins": 16,
-  "losses": 19
+  "wins": 18,
+  "losses": 21
 }
