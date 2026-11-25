@@ -1,14 +1,6 @@
 {
-  "balance": 128.29117308198676,
-  "positions": {
-    "As3XtYSstuVdrVyb6sJZZ77Tu8JvjTBg6S6hgPv4pump": {
-      "symbol": "BIAO",
-      "entry": 0.0002626,
-      "peak": 0.0003167,
-      "size": 12.98,
-      "opened": 1795625699.6122832
-    }
-  },
+  "balance": 144.64828195285946,
+  "positions": {},
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
@@ -42,8 +34,10 @@
     "CcpN5RXTEjbRqbtuHoxyiMZorzsghbfpeyYQjSvTgS27",
     "CuQUeUa6YbSSK52PTaL8eok8c1hrG6qyuyJyovmapump",
     "Bg74niwsyZFFxPhY8J47crDtDSUctKZEb1AuZL93pump",
-    "As3XtYSstuVdrVyb6sJZZ77Tu8JvjTBg6S6hgPv4pump"
+    "As3XtYSstuVdrVyb6sJZZ77Tu8JvjTBg6S6hgPv4pump",
+    "AGazYig7A8Co6ZapAPterBRLitdiP6AAaWiPH8jWLend",
+    "BvnzzK6CBRkUz1EwhxVU1nSNYyNRmVovcz2jRg9Rpump"
   ],
-  "wins": 14,
-  "losses": 18
+  "wins": 16,
+  "losses": 19
 }
