@@ -1,12 +1,19 @@
 {
-  "balance": 148.48202559341178,
+  "balance": 135.76361109639424,
   "positions": {
     "CLxrgvfFs3gr9BQhTAfGxZDsiHfVUQTDEahfiZdLpump": {
       "symbol": "ChristmASS",
       "entry": 0.000145642,
-      "peak": 0.000145642,
+      "peak": 0.0001669,
       "size": 16.5,
       "opened": 1795572360.5528684
+    },
+    "5Xd2vr3oY2YDhBeozvsZQto3rLiMzWDDBLadkgQspump": {
+      "symbol": "TOUCAN",
+      "entry": 6.59328e-05,
+      "peak": 7.454e-05,
+      "size": 13.36,
+      "opened": 1795574791.5012128
     }
   },
   "seen": [
@@ -24,8 +31,10 @@
     "Ea7ADHtZdQVre2mTBbN9Ps3TBraR6n5GUamGF9Ftpump",
     "DMFzUvtfEmE697ZfEDqAXErd9MrBDEs66V5WiRvApump",
     "4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump",
-    "CLxrgvfFs3gr9BQhTAfGxZDsiHfVUQTDEahfiZdLpump"
+    "CLxrgvfFs3gr9BQhTAfGxZDsiHfVUQTDEahfiZdLpump",
+    "B6nNZshi9ATgkCT8eBNL6BU21C8x1BAG1SZhXnwZpump",
+    "5Xd2vr3oY2YDhBeozvsZQto3rLiMzWDDBLadkgQspump"
   ],
-  "wins": 8,
+  "wins": 9,
   "losses": 6
 }
