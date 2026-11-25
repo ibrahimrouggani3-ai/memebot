@@ -1,12 +1,12 @@
 {
-  "balance": 135.33382818357995,
+  "balance": 131.9758675740228,
   "positions": {
-    "Hvi9xTj6vWCypxEZh3mCbiS9Ywshex8LyYAdBt7Epump": {
-      "symbol": "KYM",
-      "entry": 5.56712e-05,
-      "peak": 5.56712e-05,
-      "size": 15.04,
-      "opened": 1795615771.6006706
+    "CcpN5RXTEjbRqbtuHoxyiMZorzsghbfpeyYQjSvTgS27": {
+      "symbol": "Santa",
+      "entry": 0.000111504,
+      "peak": 0.0001133,
+      "size": 14.66,
+      "opened": 1795619314.3069944
     }
   },
   "seen": [
@@ -35,8 +35,12 @@
     "96qfge1RkUWhSsv8i9V4QZFANGypKEe1u7pzCDGGpump",
     "38EDdUxnJvrnDsJyB45E2W3pK26qLEjmWTvsEmMuG9ZR",
     "3wrZTXRbMk3pCXmmNDWqkaowSsxGzhTnmhPTSXYApump",
-    "Hvi9xTj6vWCypxEZh3mCbiS9Ywshex8LyYAdBt7Epump"
+    "Hvi9xTj6vWCypxEZh3mCbiS9Ywshex8LyYAdBt7Epump",
+    "GbJCuSXQYRXYf8yxVV16yo4PBQ4H3FsT29fqkTSBpump",
+    "5Go8ByHzd9vvdBHhqFnxxgU2SRDfTv5XXMLjBnvrpump",
+    "5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump",
+    "CcpN5RXTEjbRqbtuHoxyiMZorzsghbfpeyYQjSvTgS27"
   ],
-  "wins": 11,
-  "losses": 14
+  "wins": 13,
+  "losses": 16
 }
