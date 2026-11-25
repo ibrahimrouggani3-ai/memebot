@@ -1,12 +1,19 @@
 {
-  "balance": 134.5829806921538,
+  "balance": 105.07600958897942,
   "positions": {
-    "5RBADXvDkgz22wF9gzS7BMEFNyvCYqbkomXWjy4pump": {
-      "symbol": "RECORDEGG",
-      "entry": 8.68903e-05,
-      "peak": 0.0001125,
-      "size": 12.83,
-      "opened": 1795631560.9173932
+    "EKAYUgoDp283tNs3QNKY42NydabpLLXUSSqFv8mCS4nL": {
+      "symbol": "MEDIC",
+      "entry": 0.00027169,
+      "peak": 0.0002725,
+      "size": 11.73,
+      "opened": 1795635352.520495
+    },
+    "8F9LwX8HWHnrad1rEXagpW5xrZZJ16RjSJ1HYPb6pump": {
+      "symbol": "AI",
+      "entry": 0.000685891,
+      "peak": 0.000685891,
+      "size": 11.67,
+      "opened": 1795635533.8980396
     }
   },
   "seen": [
@@ -49,8 +56,12 @@
     "437T35ficBfJK9N8GH4gWbiHb86AsRJRkQjARd7Ppump",
     "6F2FyeyphDn62TFkXXpisUCohotPArgiM1kVXsPNpump",
     "9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump",
-    "5RBADXvDkgz22wF9gzS7BMEFNyvCYqbkomXWjy4pump"
+    "5RBADXvDkgz22wF9gzS7BMEFNyvCYqbkomXWjy4pump",
+    "59efB6GMHMbsA4Z4GSZkYkmqjSHePn9xi1iRNzeepump",
+    "93UA32Baowc1gbAoM35CG9Lj5Cw2Pz6T3VfhK63Kpump",
+    "EKAYUgoDp283tNs3QNKY42NydabpLLXUSSqFv8mCS4nL",
+    "8F9LwX8HWHnrad1rEXagpW5xrZZJ16RjSJ1HYPb6pump"
   ],
   "wins": 18,
-  "losses": 21
+  "losses": 24
 }
