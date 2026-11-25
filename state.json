@@ -1,14 +1,6 @@
 {
-  "balance": 94.62811267127843,
-  "positions": {
-    "3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": {
-      "symbol": "NORFEATH",
-      "entry": 0.00024351100000000002,
-      "peak": 0.0002852,
-      "size": 11.86,
-      "opened": 1795641873.9142725
-    }
-  },
+  "balance": 120.56141807979304,
+  "positions": {},
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
@@ -63,8 +55,10 @@
     "EmU2QZ3RKBxaydKn8ix9rrSrWbzPNVifVTa4NLH4pump",
     "hCM8Mga76sK983j3Gvui427SakSGYnG1tDi4Tsipump",
     "9bgy4dVrPqa7HozGvBRV5Qy1ccbDdYHHMyzKrJjqpump",
-    "AGyQW6inE99G3Js63ooQWzAeEeBRu8718zjiSKPBpump"
+    "AGyQW6inE99G3Js63ooQWzAeEeBRu8718zjiSKPBpump",
+    "6sA2MQ16pug6gUo78UXBiJjqWWpwejRKk6s4BNdEpump",
+    "GFmaQAffLD1B4BxJuuQHmqxHqWavaSJGrYFCXQAypump"
   ],
-  "wins": 22,
-  "losses": 31
+  "wins": 23,
+  "losses": 33
 }
