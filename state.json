@@ -1,10 +1,10 @@
 {
-  "balance": 131.9758675740228,
+  "balance": 128.90209578619763,
   "positions": {
     "CcpN5RXTEjbRqbtuHoxyiMZorzsghbfpeyYQjSvTgS27": {
       "symbol": "Santa",
       "entry": 0.000111504,
-      "peak": 0.0001133,
+      "peak": 0.0001218,
       "size": 14.66,
       "opened": 1795619314.3069944
     }
@@ -39,8 +39,9 @@
     "GbJCuSXQYRXYf8yxVV16yo4PBQ4H3FsT29fqkTSBpump",
     "5Go8ByHzd9vvdBHhqFnxxgU2SRDfTv5XXMLjBnvrpump",
     "5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump",
-    "CcpN5RXTEjbRqbtuHoxyiMZorzsghbfpeyYQjSvTgS27"
+    "CcpN5RXTEjbRqbtuHoxyiMZorzsghbfpeyYQjSvTgS27",
+    "CuQUeUa6YbSSK52PTaL8eok8c1hrG6qyuyJyovmapump"
   ],
   "wins": 13,
-  "losses": 16
+  "losses": 17
 }
