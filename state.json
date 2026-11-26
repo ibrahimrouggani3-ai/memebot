@@ -1,14 +1,6 @@
 {
-  "balance": 129.27038404099721,
-  "positions": {
-    "Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": {
-      "symbol": "PUMPCHAN",
-      "entry": 0.00123725,
-      "peak": 0.0014,
-      "size": 11.24,
-      "opened": 1795660505.1000133
-    }
-  },
+  "balance": 140.97323579051476,
+  "positions": {},
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
@@ -78,8 +70,10 @@
     "BAijHvUiHCoCxApyYAUnz5g6LnizZXVYoHwdMarqTWtw",
     "GkL4cJLAL3354wLgS6mZJKKUBVzvUY1FUN47zZNgGWEq",
     "ERhjmSpLh6Rr4ozYjkGohr7rLizv7Mw6MgWpEFH7pump",
-    "Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump"
+    "Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump",
+    "CMmfK9KFjFRPgAEkixMpchNnA5zTz7xYdQkSSc8Upump",
+    "AYij72wApHA4qGV5RbZJhsAVocjHtJJhgoUswV3tpump"
   ],
-  "wins": 30,
-  "losses": 38
+  "wins": 31,
+  "losses": 40
 }
