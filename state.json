@@ -1,12 +1,12 @@
 {
-  "balance": 89.65170537086115,
+  "balance": 74.59902114829558,
   "positions": {
-    "CZt7wX37NiJQnDvwdd6JsrDLeX1XDDe7JBZEX296pump": {
-      "symbol": "TURKEY",
-      "entry": 0.0007575,
-      "peak": 0.0007575,
-      "size": 9.96,
-      "opened": 1795708972.9637156
+    "7sxuap7Q4uoAJFBW3ensq6QTa2KwgGosfFwoeXtJpump": {
+      "symbol": "Kuro",
+      "entry": 0.000431371,
+      "peak": 0.0004581,
+      "size": 8.29,
+      "opened": 1795712825.2213538
     }
   },
   "seen": [
@@ -96,8 +96,13 @@
     "HnbAKrRF9SM4QNb5o7nGJNcpjdkTyCR2M6pWgjiqpump",
     "CC1uvrWkFdju8NuUrS7x3bKVzu5Cjy6Kt6nyB6Pbpump",
     "E9arxG4RxB7Gxt6U75obonTZzx7vpbc4bUi1dfw3BtUN",
-    "CZt7wX37NiJQnDvwdd6JsrDLeX1XDDe7JBZEX296pump"
+    "CZt7wX37NiJQnDvwdd6JsrDLeX1XDDe7JBZEX296pump",
+    "57sCZ82FwS5Dfs7FN9nshtU5Mkb3w1dqhmPUuCPvpump",
+    "Bwfg2Df8Kf1oHxkRh5Nu1jXp9agxAEeLpPzwxdqApump",
+    "AaY6XtQZYYaxQ4fV8R8acConnMsgjg9zrZs341HUpump",
+    "8LbBWesEQ5myfamxhxHtZ295RbvDigqSj2iCYex5pump",
+    "7sxuap7Q4uoAJFBW3ensq6QTa2KwgGosfFwoeXtJpump"
   ],
-  "wins": 35,
-  "losses": 51
+  "wins": 36,
+  "losses": 55
 }

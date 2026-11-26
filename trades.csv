@@ -85,3 +85,8 @@ time,symbol,address,entry,exit,pnl_pct,pnl_usd,reason,balance_after
 2026-11-26 15:51:45,DUO,CC1uvrWkFdju8NuUrS7x3bKVzu5Cjy6Kt6nyB6Pbpump,0.00011716,9.937e-05,-16.03,-1.73,stop loss,106.49
 2026-11-26 15:54:47,Simyo,HnbAKrRF9SM4QNb5o7nGJNcpjdkTyCR2M6pWgjiqpump,5.66408e-05,1.689e-06,-97.05,-11.67,stop loss,106.84
 2026-11-26 15:55:48,Thankful,E9arxG4RxB7Gxt6U75obonTZzx7vpbc4bUi1dfw3BtUN,6.23473e-05,2.035e-05,-67.69,-7.23,stop loss,99.61
+2026-11-26 16:56:00,TURKEY,CZt7wX37NiJQnDvwdd6JsrDLeX1XDDe7JBZEX296pump,0.0007575,1.359e-06,-99.82,-9.94,stop loss,89.67
+2026-11-26 16:58:00,MSTR,57sCZ82FwS5Dfs7FN9nshtU5Mkb3w1dqhmPUuCPvpump,0.000524695,0.0003038,-42.68,-3.83,stop loss,77.77
+2026-11-26 16:58:00,X,Bwfg2Df8Kf1oHxkRh5Nu1jXp9agxAEeLpPzwxdqApump,6.57308e-05,5.522e-05,-16.83,-1.36,stop loss,84.48
+2026-11-26 17:05:04,KURO,AaY6XtQZYYaxQ4fV8R8acConnMsgjg9zrZs341HUpump,0.00112514,0.001194,5.06,0.43,trailing stop,77.31
+2026-11-26 17:07:05,Kuro,8LbBWesEQ5myfamxhxHtZ295RbvDigqSj2iCYex5pump,0.000155641,0.0001154,-26.6,-2.02,stop loss,82.89
