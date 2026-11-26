@@ -101,3 +101,4 @@ time,symbol,address,entry,exit,pnl_pct,pnl_usd,reason,balance_after
 2026-11-26 20:44:31,Elonmas,ChYn9ZpCUzrwd8rcpUtr7K7iKgDWUfJijM4xwxBCpump,0.000197051,0.0001651,-17.05,-1.27,stop loss,65.54
 2026-11-26 20:45:31,Hoppy,CFX1gH7CKYwqYXrfDkS2MUxJcEhs8PT63DyRA1chpump,0.000380467,0.000397,3.3,0.22,trailing stop,72.35
 2026-11-26 21:33:27,Cateball,Bb38n8AVLMh9amo8qtjLvqE8nPtfs8GEsyzg1pC6pump,0.00165539,0.0008807,-47.33,-3.42,stop loss,68.92
+2026-11-26 22:40:25,HOLD,BuNeErf9FjL6dgzE74S21Qm9EeBaYMJXSW4A8ihxpump,6.23574e-05,8.115e-05,28.84,1.99,take profit,70.91
