@@ -59,3 +59,5 @@ time,symbol,address,entry,exit,pnl_pct,pnl_usd,reason,balance_after
 2026-11-25 23:22:38,PVE,BQTG5qcyt3YpU1nJ37RAsTwd4fJa3cZXKAp9WjMETQu6,0.00014443,0.0001968,34.9,4.21,take profit,111.96
 2026-11-25 23:27:40,Grodia,6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump,0.00127058,0.001353,5.42,0.59,trailing stop,123.4
 2026-11-25 23:29:41,AMD,2ndz2hhsxDFgU1sQHi8Qjro7KRrTPgen1NJdUtNDpump,0.00021008,0.0003678,73.33,9.05,take profit,132.45
+2026-11-26 00:17:07,Pumpcat,5CPiu3nmhYWWnj6BfebvMzqqwPUBm8UzBtNGW4cEpump,0.000244218,0.0002408,-2.39,-0.32,trailing stop,132.13
+2026-11-26 00:25:09,UHI,Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump,0.00032461400000000003,0.0004403,34.28,4.53,take profit,136.66
