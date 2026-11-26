@@ -1,6 +1,14 @@
 {
-  "balance": 70.91094944968054,
-  "positions": {},
+  "balance": 61.1590417656828,
+  "positions": {
+    "A28uKeoB79ksfCarcDuJzaqE4LqJenPHxxPRR2nApump": {
+      "symbol": "COOLS",
+      "entry": 7.5245e-05,
+      "peak": 7.5245e-05,
+      "size": 6.92,
+      "opened": 1795736476.3711073
+    }
+  },
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
@@ -104,8 +112,11 @@
     "GEUULM43QbeFJ7p1Twodufx7bJDWNBibpwbKyETWpump",
     "CFX1gH7CKYwqYXrfDkS2MUxJcEhs8PT63DyRA1chpump",
     "Bb38n8AVLMh9amo8qtjLvqE8nPtfs8GEsyzg1pC6pump",
-    "BuNeErf9FjL6dgzE74S21Qm9EeBaYMJXSW4A8ihxpump"
+    "BuNeErf9FjL6dgzE74S21Qm9EeBaYMJXSW4A8ihxpump",
+    "CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump",
+    "A28uKeoB79ksfCarcDuJzaqE4LqJenPHxxPRR2nApump",
+    "9J2cy3AfDquDDKqjteYaFSrYEvUAGnb1Qxw8pZQApump"
   ],
   "wins": 41,
-  "losses": 62
+  "losses": 64
 }
