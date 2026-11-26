@@ -1,6 +1,21 @@
 {
-  "balance": 140.97323579051476,
-  "positions": {},
+  "balance": 115.51638327542094,
+  "positions": {
+    "3jAB5ksB13Kgm2Q39NU6d2USUxBy2f9LaTvyay6Gpump": {
+      "symbol": "ccat",
+      "entry": 3.49662e-05,
+      "peak": 3.49662e-05,
+      "size": 14.26,
+      "opened": 1795668818.6941526
+    },
+    "4VMwK3shXxsaMbiJ4qtBMMEgi63riezBSWFHfA6Vpump": {
+      "symbol": "FRITZ",
+      "entry": 7.21443e-05,
+      "peak": 7.21443e-05,
+      "size": 12.84,
+      "opened": 1795668999.4555504
+    }
+  },
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
@@ -72,8 +87,11 @@
     "ERhjmSpLh6Rr4ozYjkGohr7rLizv7Mw6MgWpEFH7pump",
     "Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump",
     "CMmfK9KFjFRPgAEkixMpchNnA5zTz7xYdQkSSc8Upump",
-    "AYij72wApHA4qGV5RbZJhsAVocjHtJJhgoUswV3tpump"
+    "AYij72wApHA4qGV5RbZJhsAVocjHtJJhgoUswV3tpump",
+    "BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump",
+    "3jAB5ksB13Kgm2Q39NU6d2USUxBy2f9LaTvyay6Gpump",
+    "4VMwK3shXxsaMbiJ4qtBMMEgi63riezBSWFHfA6Vpump"
   ],
-  "wins": 31,
+  "wins": 32,
   "losses": 40
 }
