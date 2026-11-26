@@ -1,6 +1,14 @@
 {
-  "balance": 136.6632280492061,
-  "positions": {},
+  "balance": 126.46401098737698,
+  "positions": {
+    "DeACAbp2GMzapB6Z2K8qdkTZupmNbKc6EZx9bnbCpump": {
+      "symbol": "MONEY",
+      "entry": 0.0007793160000000001,
+      "peak": 0.0007793160000000001,
+      "size": 12.3,
+      "opened": 1795656524.2466855
+    }
+  },
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
@@ -63,8 +71,12 @@
     "HWqqNLpcHvxJpNy43FJwnS1xDNsvobYtpLK8ostWhQwM",
     "2ndz2hhsxDFgU1sQHi8Qjro7KRrTPgen1NJdUtNDpump",
     "5CPiu3nmhYWWnj6BfebvMzqqwPUBm8UzBtNGW4cEpump",
-    "Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump"
+    "Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump",
+    "CnozX9VZrfTSCzssxicM4ee86GTuf497G5t94rUvpump",
+    "DeACAbp2GMzapB6Z2K8qdkTZupmNbKc6EZx9bnbCpump",
+    "DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump",
+    "BAijHvUiHCoCxApyYAUnz5g6LnizZXVYoHwdMarqTWtw"
   ],
-  "wins": 27,
-  "losses": 35
+  "wins": 29,
+  "losses": 36
 }
