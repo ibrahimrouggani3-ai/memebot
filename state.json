@@ -1,12 +1,12 @@
 {
-  "balance": 108.22021720299611,
+  "balance": 89.65170537086115,
   "positions": {
-    "HnbAKrRF9SM4QNb5o7nGJNcpjdkTyCR2M6pWgjiqpump": {
-      "symbol": "Simyo",
-      "entry": 5.66408e-05,
-      "peak": 5.66408e-05,
-      "size": 12.03,
-      "opened": 1795705297.70088
+    "CZt7wX37NiJQnDvwdd6JsrDLeX1XDDe7JBZEX296pump": {
+      "symbol": "TURKEY",
+      "entry": 0.0007575,
+      "peak": 0.0007575,
+      "size": 9.96,
+      "opened": 1795708972.9637156
     }
   },
   "seen": [
@@ -93,8 +93,11 @@
     "32rBxcFjCFnyqZ41CEPM5AL67X1dcw8w83vZt6Kxpump",
     "EMd4HYWqkQvnmSAor4H44VM4D8ARzcTxsXsYTKazpump",
     "BSMz6chW26adx25hkfRZvmTSu6q4d3ieixPx73hQpump",
-    "HnbAKrRF9SM4QNb5o7nGJNcpjdkTyCR2M6pWgjiqpump"
+    "HnbAKrRF9SM4QNb5o7nGJNcpjdkTyCR2M6pWgjiqpump",
+    "CC1uvrWkFdju8NuUrS7x3bKVzu5Cjy6Kt6nyB6Pbpump",
+    "E9arxG4RxB7Gxt6U75obonTZzx7vpbc4bUi1dfw3BtUN",
+    "CZt7wX37NiJQnDvwdd6JsrDLeX1XDDe7JBZEX296pump"
   ],
   "wins": 35,
-  "losses": 48
+  "losses": 51
 }

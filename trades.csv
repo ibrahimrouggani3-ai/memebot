@@ -82,3 +82,6 @@ time,symbol,address,entry,exit,pnl_pct,pnl_usd,reason,balance_after
 2026-11-26 13:52:58,PAIR,32rBxcFjCFnyqZ41CEPM5AL67X1dcw8w83vZt6Kxpump,0.00012544200000000002,9.407e-05,-25.76,-3.6,stop loss,136.08
 2026-11-26 14:49:32,KOMARI,EMd4HYWqkQvnmSAor4H44VM4D8ARzcTxsXsYTKazpump,0.000116958,1.438e-06,-98.78,-13.44,stop loss,122.63
 2026-11-26 14:56:35,Irochan,BSMz6chW26adx25hkfRZvmTSu6q4d3ieixPx73hQpump,6.21251e-05,5.055e-05,-19.45,-2.38,stop loss,120.25
+2026-11-26 15:51:45,DUO,CC1uvrWkFdju8NuUrS7x3bKVzu5Cjy6Kt6nyB6Pbpump,0.00011716,9.937e-05,-16.03,-1.73,stop loss,106.49
+2026-11-26 15:54:47,Simyo,HnbAKrRF9SM4QNb5o7nGJNcpjdkTyCR2M6pWgjiqpump,5.66408e-05,1.689e-06,-97.05,-11.67,stop loss,106.84
+2026-11-26 15:55:48,Thankful,E9arxG4RxB7Gxt6U75obonTZzx7vpbc4bUi1dfw3BtUN,6.23473e-05,2.035e-05,-67.69,-7.23,stop loss,99.61
