@@ -1,6 +1,14 @@
 {
-  "balance": 139.67712921340566,
-  "positions": {},
+  "balance": 122.46858630911522,
+  "positions": {
+    "EMd4HYWqkQvnmSAor4H44VM4D8ARzcTxsXsYTKazpump": {
+      "symbol": "KOMARI",
+      "entry": 0.000116958,
+      "peak": 0.0001431,
+      "size": 13.61,
+      "opened": 1795701540.913174
+    }
+  },
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
@@ -81,8 +89,10 @@
     "8BDkDfj3ZUvcG9caGzF2XnHfwg7K6fjfKKDvX6SCpump",
     "BKGidSAf6RkUUymQYYoN8ifm3VMsLkeFTocvza3Spump",
     "HN9jRRCKuLNL3oSgNV1MBvd3Krg6TingFntJp1PSpump",
-    "HdRPR3nqkNCt98DWQqDdfkRHDc1NFsgCJVbfXRnppump"
+    "HdRPR3nqkNCt98DWQqDdfkRHDc1NFsgCJVbfXRnppump",
+    "32rBxcFjCFnyqZ41CEPM5AL67X1dcw8w83vZt6Kxpump",
+    "EMd4HYWqkQvnmSAor4H44VM4D8ARzcTxsXsYTKazpump"
   ],
   "wins": 35,
-  "losses": 45
+  "losses": 46
 }
