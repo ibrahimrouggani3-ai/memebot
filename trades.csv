@@ -75,3 +75,4 @@ time,symbol,address,entry,exit,pnl_pct,pnl_usd,reason,balance_after
 2026-11-26 05:47:39,FRITZ,4VMwK3shXxsaMbiJ4qtBMMEgi63riezBSWFHfA6Vpump,7.21443e-05,5.419e-05,-25.64,-3.29,stop loss,122.57
 2026-11-26 06:37:54,ccat,3jAB5ksB13Kgm2Q39NU6d2USUxBy2f9LaTvyay6Gpump,3.49662e-05,3.647e-05,3.26,0.46,time exit,137.29
 2026-11-26 06:43:56,Elonmas,6B5X3keXJ4J8LLvswa2mbqMhrRDbt85Jo88sbB6apump,0.00019553599999999998,0.0001594,-19.3,-2.65,stop loss,134.65
+2026-11-26 09:16:41,WIENER,8BDkDfj3ZUvcG9caGzF2XnHfwg7K6fjfKKDvX6SCpump,6.34381e-05,9.06e-05,41.39,5.57,take profit,140.22
