@@ -80,3 +80,5 @@ time,symbol,address,entry,exit,pnl_pct,pnl_usd,reason,balance_after
 2026-11-26 10:32:15,STRUCK,HN9jRRCKuLNL3oSgNV1MBvd3Krg6TingFntJp1PSpump,5.68226e-05,4.972e-06,-91.34,-12.53,stop loss,124.66
 2026-11-26 11:22:54,konnichiwa,HdRPR3nqkNCt98DWQqDdfkRHDc1NFsgCJVbfXRnppump,5.08838e-05,0.0001133,120.44,15.02,take profit,139.68
 2026-11-26 13:52:58,PAIR,32rBxcFjCFnyqZ41CEPM5AL67X1dcw8w83vZt6Kxpump,0.00012544200000000002,9.407e-05,-25.76,-3.6,stop loss,136.08
+2026-11-26 14:49:32,KOMARI,EMd4HYWqkQvnmSAor4H44VM4D8ARzcTxsXsYTKazpump,0.000116958,1.438e-06,-98.78,-13.44,stop loss,122.63
+2026-11-26 14:56:35,Irochan,BSMz6chW26adx25hkfRZvmTSu6q4d3ieixPx73hQpump,6.21251e-05,5.055e-05,-19.45,-2.38,stop loss,120.25
