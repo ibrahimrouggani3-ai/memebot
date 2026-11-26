@@ -1,12 +1,12 @@
 {
-  "balance": 126.46401098737698,
+  "balance": 129.27038404099721,
   "positions": {
-    "DeACAbp2GMzapB6Z2K8qdkTZupmNbKc6EZx9bnbCpump": {
-      "symbol": "MONEY",
-      "entry": 0.0007793160000000001,
-      "peak": 0.0007793160000000001,
-      "size": 12.3,
-      "opened": 1795656524.2466855
+    "Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": {
+      "symbol": "PUMPCHAN",
+      "entry": 0.00123725,
+      "peak": 0.0014,
+      "size": 11.24,
+      "opened": 1795660505.1000133
     }
   },
   "seen": [
@@ -75,8 +75,11 @@
     "CnozX9VZrfTSCzssxicM4ee86GTuf497G5t94rUvpump",
     "DeACAbp2GMzapB6Z2K8qdkTZupmNbKc6EZx9bnbCpump",
     "DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump",
-    "BAijHvUiHCoCxApyYAUnz5g6LnizZXVYoHwdMarqTWtw"
+    "BAijHvUiHCoCxApyYAUnz5g6LnizZXVYoHwdMarqTWtw",
+    "GkL4cJLAL3354wLgS6mZJKKUBVzvUY1FUN47zZNgGWEq",
+    "ERhjmSpLh6Rr4ozYjkGohr7rLizv7Mw6MgWpEFH7pump",
+    "Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump"
   ],
-  "wins": 29,
-  "losses": 36
+  "wins": 30,
+  "losses": 38
 }
