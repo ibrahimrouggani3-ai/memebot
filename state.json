@@ -1,14 +1,6 @@
 {
-  "balance": 112.18856723493707,
-  "positions": {
-    "HdRPR3nqkNCt98DWQqDdfkRHDc1NFsgCJVbfXRnppump": {
-      "symbol": "konnichiwa",
-      "entry": 5.08838e-05,
-      "peak": 6.154e-05,
-      "size": 12.47,
-      "opened": 1795689316.1010833
-    }
-  },
+  "balance": 139.67712921340566,
+  "positions": {},
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
@@ -91,6 +83,6 @@
     "HN9jRRCKuLNL3oSgNV1MBvd3Krg6TingFntJp1PSpump",
     "HdRPR3nqkNCt98DWQqDdfkRHDc1NFsgCJVbfXRnppump"
   ],
-  "wins": 34,
+  "wins": 35,
   "losses": 45
 }

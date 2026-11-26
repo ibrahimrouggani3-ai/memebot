@@ -78,3 +78,4 @@ time,symbol,address,entry,exit,pnl_pct,pnl_usd,reason,balance_after
 2026-11-26 09:16:41,WIENER,8BDkDfj3ZUvcG9caGzF2XnHfwg7K6fjfKKDvX6SCpump,6.34381e-05,9.06e-05,41.39,5.57,take profit,140.22
 2026-11-26 10:26:14,YEE,BKGidSAf6RkUUymQYYoN8ifm3VMsLkeFTocvza3Spump,6.0398e-05,4.784e-05,-21.58,-3.03,stop loss,137.19
 2026-11-26 10:32:15,STRUCK,HN9jRRCKuLNL3oSgNV1MBvd3Krg6TingFntJp1PSpump,5.68226e-05,4.972e-06,-91.34,-12.53,stop loss,124.66
+2026-11-26 11:22:54,konnichiwa,HdRPR3nqkNCt98DWQqDdfkRHDc1NFsgCJVbfXRnppump,5.08838e-05,0.0001133,120.44,15.02,take profit,139.68
