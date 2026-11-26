@@ -94,3 +94,6 @@ time,symbol,address,entry,exit,pnl_pct,pnl_usd,reason,balance_after
 2026-11-26 17:48:53,Kuro,AuVQxjSZt937unfV6ScNca1ZwwqZtjNSq3LfQtv4pump,0.000113019,9.323e-05,-18.33,-1.23,stop loss,65.93
 2026-11-26 17:51:54,JANTA,9tERTsZZj19ZHAqg7URtfkfPdaCiVeR4JkuPVoHrpump,0.00037976,0.0003954,3.08,0.23,trailing stop,73.62
 2026-11-26 18:46:15,Criminul,5qYyTjP1Y2xfSUUayyEfXP5mxxBg1CEKcdPvmYEApump,4.33694e-05,6.552e-05,49.56,3.65,take profit,77.27
+2026-11-26 19:47:48,1T,HYFbbfv771xSRXyF2rRdf6eQzucLhrSHd2JkE12vpump,0.000198667,0.0001646,-17.98,-1.25,stop loss,68.29
+2026-11-26 19:48:49,George,FvitVJ528ZCyuy695DoqEGy816rFVafbZ2MSgMw3pump,0.000546511,0.0007286,31.99,2.47,take profit,78.49
+2026-11-26 19:54:51,FIREBALL,3FXQU7aFGcKoAAnEbAM28RjKoxB8FM9iNnBD6uXmfire,7.63459e-05,3.968e-05,-48.55,-3.81,stop loss,74.68
