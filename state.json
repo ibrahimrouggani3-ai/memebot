@@ -1,14 +1,6 @@
 {
-  "balance": 74.59902114829558,
-  "positions": {
-    "7sxuap7Q4uoAJFBW3ensq6QTa2KwgGosfFwoeXtJpump": {
-      "symbol": "Kuro",
-      "entry": 0.000431371,
-      "peak": 0.0004581,
-      "size": 8.29,
-      "opened": 1795712825.2213538
-    }
-  },
+  "balance": 73.62126471644555,
+  "positions": {},
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
@@ -101,8 +93,10 @@
     "Bwfg2Df8Kf1oHxkRh5Nu1jXp9agxAEeLpPzwxdqApump",
     "AaY6XtQZYYaxQ4fV8R8acConnMsgjg9zrZs341HUpump",
     "8LbBWesEQ5myfamxhxHtZ295RbvDigqSj2iCYex5pump",
-    "7sxuap7Q4uoAJFBW3ensq6QTa2KwgGosfFwoeXtJpump"
+    "7sxuap7Q4uoAJFBW3ensq6QTa2KwgGosfFwoeXtJpump",
+    "9tERTsZZj19ZHAqg7URtfkfPdaCiVeR4JkuPVoHrpump",
+    "AuVQxjSZt937unfV6ScNca1ZwwqZtjNSq3LfQtv4pump"
   ],
-  "wins": 36,
-  "losses": 55
+  "wins": 37,
+  "losses": 57
 }

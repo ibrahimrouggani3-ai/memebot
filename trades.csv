@@ -90,3 +90,6 @@ time,symbol,address,entry,exit,pnl_pct,pnl_usd,reason,balance_after
 2026-11-26 16:58:00,X,Bwfg2Df8Kf1oHxkRh5Nu1jXp9agxAEeLpPzwxdqApump,6.57308e-05,5.522e-05,-16.83,-1.36,stop loss,84.48
 2026-11-26 17:05:04,KURO,AaY6XtQZYYaxQ4fV8R8acConnMsgjg9zrZs341HUpump,0.00112514,0.001194,5.06,0.43,trailing stop,77.31
 2026-11-26 17:07:05,Kuro,8LbBWesEQ5myfamxhxHtZ295RbvDigqSj2iCYex5pump,0.000155641,0.0001154,-26.6,-2.02,stop loss,82.89
+2026-11-26 17:46:53,Kuro,7sxuap7Q4uoAJFBW3ensq6QTa2KwgGosfFwoeXtJpump,0.000431371,1.301e-06,-99.7,-8.27,stop loss,74.62
+2026-11-26 17:48:53,Kuro,AuVQxjSZt937unfV6ScNca1ZwwqZtjNSq3LfQtv4pump,0.000113019,9.323e-05,-18.33,-1.23,stop loss,65.93
+2026-11-26 17:51:54,JANTA,9tERTsZZj19ZHAqg7URtfkfPdaCiVeR4JkuPVoHrpump,0.00037976,0.0003954,3.08,0.23,trailing stop,73.62
