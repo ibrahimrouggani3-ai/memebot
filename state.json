@@ -1,6 +1,14 @@
 {
-  "balance": 140.21616586646746,
-  "positions": {},
+  "balance": 112.18856723493707,
+  "positions": {
+    "HdRPR3nqkNCt98DWQqDdfkRHDc1NFsgCJVbfXRnppump": {
+      "symbol": "konnichiwa",
+      "entry": 5.08838e-05,
+      "peak": 6.154e-05,
+      "size": 12.47,
+      "opened": 1795689316.1010833
+    }
+  },
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
@@ -78,8 +86,11 @@
     "4VMwK3shXxsaMbiJ4qtBMMEgi63riezBSWFHfA6Vpump",
     "DMXm1gSmAZn1RV4fGXGG8Y1cXfKWXMDYaiKF4B6Cpump",
     "6B5X3keXJ4J8LLvswa2mbqMhrRDbt85Jo88sbB6apump",
-    "8BDkDfj3ZUvcG9caGzF2XnHfwg7K6fjfKKDvX6SCpump"
+    "8BDkDfj3ZUvcG9caGzF2XnHfwg7K6fjfKKDvX6SCpump",
+    "BKGidSAf6RkUUymQYYoN8ifm3VMsLkeFTocvza3Spump",
+    "HN9jRRCKuLNL3oSgNV1MBvd3Krg6TingFntJp1PSpump",
+    "HdRPR3nqkNCt98DWQqDdfkRHDc1NFsgCJVbfXRnppump"
   ],
   "wins": 34,
-  "losses": 43
+  "losses": 45
 }
