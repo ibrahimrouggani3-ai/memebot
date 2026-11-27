@@ -111,3 +111,7 @@ time,symbol,address,entry,exit,pnl_pct,pnl_usd,reason,balance_after
 2026-11-27 02:04:19,Santaball,4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump,0.000769822,0.001046,34.52,2.08,take profit,57.06
 2026-11-27 03:01:55,KAI,G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump,0.00258661,0.003205,22.67,1.23,time exit,63.73
 2026-11-27 03:02:55,DragonRiders,5xrT8y2KU2YwzipwCMNxxTc8KAGQd4wjtGTc2WyJJCMh,0.000119281,0.0001846,53.21,3.39,take profit,56.22
+2026-11-27 04:10:19,SpaceXCoin,G2XqmSc8vJpLLwaLVXUeNkxsrhVT8vQ3Pje8MqeDpump,0.000334411,0.0005131,51.9,2.98,take profit,64.94
+2026-11-27 04:10:19,530A,7Ttmp4xBtErMzxpR6AhuzJjDf7u3YGJtWm5ibPsqpump,6.322600000000001e-05,1.573e-06,-97.54,-5.03,stop loss,65.07
+2026-11-27 04:15:20,Dragon,cg3HaDWhAKFfj9aq79TWUBgmxfs4G7byQ7feaxnpump,8.61328e-05,7.248e-05,-16.69,-1.09,stop loss,63.98
+2026-11-27 04:18:22,LEVER,52a6B3qpwGN9daQBTu8kvbXQVgThuiGMJE1mmCEgpump,0.00012625,9.119e-05,-28.49,-1.82,stop loss,62.16

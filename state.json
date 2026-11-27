@@ -1,21 +1,6 @@
 {
-  "balance": 56.22415435808357,
-  "positions": {
-    "G2XqmSc8vJpLLwaLVXUeNkxsrhVT8vQ3Pje8MqeDpump": {
-      "symbol": "SpaceXCoin",
-      "entry": 0.000334411,
-      "peak": 0.0003928,
-      "size": 5.74,
-      "opened": 1795748515.189141
-    },
-    "7Ttmp4xBtErMzxpR6AhuzJjDf7u3YGJtWm5ibPsqpump": {
-      "symbol": "530A",
-      "entry": 6.322600000000001e-05,
-      "peak": 6.565e-05,
-      "size": 5.16,
-      "opened": 1795748515.1891692
-    }
-  },
+  "balance": 62.160084922841634,
+  "positions": {},
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
@@ -130,8 +115,10 @@
     "G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump",
     "5xrT8y2KU2YwzipwCMNxxTc8KAGQd4wjtGTc2WyJJCMh",
     "G2XqmSc8vJpLLwaLVXUeNkxsrhVT8vQ3Pje8MqeDpump",
-    "7Ttmp4xBtErMzxpR6AhuzJjDf7u3YGJtWm5ibPsqpump"
+    "7Ttmp4xBtErMzxpR6AhuzJjDf7u3YGJtWm5ibPsqpump",
+    "cg3HaDWhAKFfj9aq79TWUBgmxfs4G7byQ7feaxnpump",
+    "52a6B3qpwGN9daQBTu8kvbXQVgThuiGMJE1mmCEgpump"
   ],
-  "wins": 44,
-  "losses": 68
+  "wins": 45,
+  "losses": 71
 }
