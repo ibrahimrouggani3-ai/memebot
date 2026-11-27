@@ -1,14 +1,6 @@
 {
-  "balance": 45.355636231222825,
-  "positions": {
-    "3WsqUNArNSh5pYt6eTKbQ7uUJDgkPtFEA2XFvdEWpump": {
-      "symbol": "ZERO",
-      "entry": 0.000890315,
-      "peak": 0.0008936,
-      "size": 4.09,
-      "opened": 1795815379.3445423
-    }
-  },
+  "balance": 49.217747641229394,
+  "positions": {},
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
@@ -161,5 +153,5 @@
     "3WsqUNArNSh5pYt6eTKbQ7uUJDgkPtFEA2XFvdEWpump"
   ],
   "wins": 59,
-  "losses": 89
+  "losses": 90
 }
