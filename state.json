@@ -1,12 +1,19 @@
 {
-  "balance": 61.1590417656828,
+  "balance": 54.96102143799506,
   "positions": {
-    "A28uKeoB79ksfCarcDuJzaqE4LqJenPHxxPRR2nApump": {
-      "symbol": "COOLS",
-      "entry": 7.5245e-05,
-      "peak": 7.5245e-05,
-      "size": 6.92,
-      "opened": 1795736476.3711073
+    "HpKjCnvJbgZ2ymjDvae5ZZ29t21FqECWN8ohWCFcpump": {
+      "symbol": "SHIA",
+      "entry": 5.40047e-05,
+      "peak": 6.341e-05,
+      "size": 5.5,
+      "opened": 1795739793.2016847
+    },
+    "BuorVu99GQ1LHT194YNYRbdXivTCA8o58nz7iji2pump": {
+      "symbol": "Kuro",
+      "entry": 0.00037067,
+      "peak": 0.00037067,
+      "size": 6.11,
+      "opened": 1795740456.8835256
     }
   },
   "seen": [
@@ -115,8 +122,11 @@
     "BuNeErf9FjL6dgzE74S21Qm9EeBaYMJXSW4A8ihxpump",
     "CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump",
     "A28uKeoB79ksfCarcDuJzaqE4LqJenPHxxPRR2nApump",
-    "9J2cy3AfDquDDKqjteYaFSrYEvUAGnb1Qxw8pZQApump"
+    "9J2cy3AfDquDDKqjteYaFSrYEvUAGnb1Qxw8pZQApump",
+    "CKiuTwHFMXKBaQ4V1WgsYctsdbLeit3wytXRkphzpump",
+    "HpKjCnvJbgZ2ymjDvae5ZZ29t21FqECWN8ohWCFcpump",
+    "BuorVu99GQ1LHT194YNYRbdXivTCA8o58nz7iji2pump"
   ],
   "wins": 41,
-  "losses": 64
+  "losses": 66
 }
