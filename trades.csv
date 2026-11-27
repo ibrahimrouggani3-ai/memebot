@@ -119,3 +119,4 @@ time,symbol,address,entry,exit,pnl_pct,pnl_usd,reason,balance_after
 2026-11-27 07:58:54,Kibo,7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump,0.000176144,0.000145,-18.5,-1.13,stop loss,59.83
 2026-11-27 09:54:06,NIW,CVcVTN9yFswizy3DYdPKJJtYup3hpgC9U7FX1yzUpump,6.342799999999999e-05,0.0001032,61.08,3.65,take profit,63.49
 2026-11-27 10:48:17,Muffin,jMhjZicmQSAJNoub4VEyJKqJxXzuyFCSKGgribxpump,5.55803e-05,1.502e-06,-97.32,-6.18,stop loss,57.31
+2026-11-27 11:43:29,VAULT,4tqzkSWA9tiWYhzYpSt81We3cVNkrEbkD1tzjFDZpump,7.217459999999999e-05,9.445e-05,29.55,1.69,take profit,59.0
