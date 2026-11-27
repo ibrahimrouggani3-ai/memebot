@@ -1,14 +1,6 @@
 {
-  "balance": 53.85314594733808,
-  "positions": {
-    "CVcVTN9yFswizy3DYdPKJJtYup3hpgC9U7FX1yzUpump": {
-      "symbol": "NIW",
-      "entry": 6.342799999999999e-05,
-      "peak": 7.39e-05,
-      "size": 5.98,
-      "opened": 1795769589.497708
-    }
-  },
+  "balance": 63.48555813123163,
+  "positions": {},
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
@@ -130,6 +122,6 @@
     "7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump",
     "CVcVTN9yFswizy3DYdPKJJtYup3hpgC9U7FX1yzUpump"
   ],
-  "wins": 45,
+  "wins": 46,
   "losses": 73
 }
