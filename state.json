@@ -1,6 +1,21 @@
 {
-  "balance": 53.71126030398227,
-  "positions": {},
+  "balance": 43.511260303982276,
+  "positions": {
+    "GdDpHWwrRLDHR2soP75sEtqzDzY1rkATuVszAHv5pump": {
+      "symbol": "Fullball",
+      "entry": 0.00010443400000000001,
+      "peak": 0.0001303,
+      "size": 5.37,
+      "opened": 1795811585.778323
+    },
+    "7dc3gFoyuDCPWjrfZfX99uasJJSceAJx5ucE8bDGpump": {
+      "symbol": "WINTER",
+      "entry": 9.72226e-05,
+      "peak": 9.72226e-05,
+      "size": 4.83,
+      "opened": 1795811706.3365629
+    }
+  },
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
@@ -144,7 +159,9 @@
     "39nuVgw8RCVC8PgGuuuaa8WoAERA61cTw85oUvBLT2va",
     "6J3m4E2AvckGpMypHoBmT9JdPA6QZJ66X9AfzYwWZttc",
     "4WZLGbAp6oEPxFbDcsfADCo1AgYZkfiteQhtM5iwpump",
-    "8LX2fFyENqu1R6bmzk461BH3ZPVbmpCpppe1K7Zcpump"
+    "8LX2fFyENqu1R6bmzk461BH3ZPVbmpCpppe1K7Zcpump",
+    "GdDpHWwrRLDHR2soP75sEtqzDzY1rkATuVszAHv5pump",
+    "7dc3gFoyuDCPWjrfZfX99uasJJSceAJx5ucE8bDGpump"
   ],
   "wins": 57,
   "losses": 86
