@@ -1,6 +1,14 @@
 {
-  "balance": 58.998921720144544,
-  "positions": {},
+  "balance": 53.098921720144546,
+  "positions": {
+    "ExpdNM5YykDnGTmyxCH5B3s7mdWi1cEreDvK6ic8pump": {
+      "symbol": "ChokingCat",
+      "entry": 7.03768e-05,
+      "peak": 8.244e-05,
+      "size": 5.9,
+      "opened": 1795783416.4024255
+    }
+  },
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
@@ -122,7 +130,8 @@
     "7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump",
     "CVcVTN9yFswizy3DYdPKJJtYup3hpgC9U7FX1yzUpump",
     "jMhjZicmQSAJNoub4VEyJKqJxXzuyFCSKGgribxpump",
-    "4tqzkSWA9tiWYhzYpSt81We3cVNkrEbkD1tzjFDZpump"
+    "4tqzkSWA9tiWYhzYpSt81We3cVNkrEbkD1tzjFDZpump",
+    "ExpdNM5YykDnGTmyxCH5B3s7mdWi1cEreDvK6ic8pump"
   ],
   "wins": 47,
   "losses": 74
