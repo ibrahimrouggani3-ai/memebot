@@ -1,19 +1,19 @@
 {
-  "balance": 48.19558861327757,
+  "balance": 46.532102670095966,
   "positions": {
-    "B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": {
-      "symbol": "Fireball",
-      "entry": 0.0007368959999999999,
-      "peak": 0.0009468,
-      "size": 4.64,
-      "opened": 1795798852.3469036
+    "39nuVgw8RCVC8PgGuuuaa8WoAERA61cTw85oUvBLT2va": {
+      "symbol": "COMPUTE",
+      "entry": 7.34977e-05,
+      "peak": 7.34977e-05,
+      "size": 5.31,
+      "opened": 1795802051.2787673
     },
-    "8ob6WB1VTJasK2r6EjzbMyJ5Zv8bd6jDsTtahvxunyLV": {
-      "symbol": "67",
-      "entry": 0.000139077,
-      "peak": 0.0001458,
-      "size": 4.58,
-      "opened": 1795798972.8596175
+    "6J3m4E2AvckGpMypHoBmT9JdPA6QZJ66X9AfzYwWZttc": {
+      "symbol": "rice",
+      "entry": 0.000122816,
+      "peak": 0.0001292,
+      "size": 5.17,
+      "opened": 1795802172.4491487
     }
   },
   "seen": [
@@ -153,8 +153,12 @@
     "7j1a6959WYMBwUNVV64NtzwAKfKU8hXC5auJdFHbpump",
     "92tFJ6CvgCuoS1c34Qy5g3RPVRDmLyHtknMnuoYqpump",
     "B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump",
-    "8ob6WB1VTJasK2r6EjzbMyJ5Zv8bd6jDsTtahvxunyLV"
+    "8ob6WB1VTJasK2r6EjzbMyJ5Zv8bd6jDsTtahvxunyLV",
+    "8sAxwsNzhRj6LF5npy1HtPir94TzSgP1QaczUmGcpump",
+    "HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump",
+    "39nuVgw8RCVC8PgGuuuaa8WoAERA61cTw85oUvBLT2va",
+    "6J3m4E2AvckGpMypHoBmT9JdPA6QZJ66X9AfzYwWZttc"
   ],
-  "wins": 54,
-  "losses": 81
+  "wins": 56,
+  "losses": 83
 }
