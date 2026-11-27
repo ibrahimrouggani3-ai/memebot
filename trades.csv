@@ -109,3 +109,5 @@ time,symbol,address,entry,exit,pnl_pct,pnl_usd,reason,balance_after
 2026-11-27 02:00:18,SHIA,HpKjCnvJbgZ2ymjDvae5ZZ29t21FqECWN8ohWCFcpump,5.40047e-05,5.39e-05,-1.19,-0.07,trailing stop,60.4
 2026-11-27 02:00:18,Kuro,BuorVu99GQ1LHT194YNYRbdXivTCA8o58nz7iji2pump,0.00037067,1.29e-06,-99.66,-6.09,stop loss,60.42
 2026-11-27 02:04:19,Santaball,4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump,0.000769822,0.001046,34.52,2.08,take profit,57.06
+2026-11-27 03:01:55,KAI,G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump,0.00258661,0.003205,22.67,1.23,time exit,63.73
+2026-11-27 03:02:55,DragonRiders,5xrT8y2KU2YwzipwCMNxxTc8KAGQd4wjtGTc2WyJJCMh,0.000119281,0.0001846,53.21,3.39,take profit,56.22

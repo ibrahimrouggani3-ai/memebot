@@ -1,12 +1,19 @@
 {
-  "balance": 57.061331741919055,
+  "balance": 56.22415435808357,
   "positions": {
-    "G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump": {
-      "symbol": "KAI",
-      "entry": 0.00258661,
-      "peak": 0.00286,
-      "size": 5.44,
-      "opened": 1795744818.5613263
+    "G2XqmSc8vJpLLwaLVXUeNkxsrhVT8vQ3Pje8MqeDpump": {
+      "symbol": "SpaceXCoin",
+      "entry": 0.000334411,
+      "peak": 0.0003928,
+      "size": 5.74,
+      "opened": 1795748515.189141
+    },
+    "7Ttmp4xBtErMzxpR6AhuzJjDf7u3YGJtWm5ibPsqpump": {
+      "symbol": "530A",
+      "entry": 6.322600000000001e-05,
+      "peak": 6.565e-05,
+      "size": 5.16,
+      "opened": 1795748515.1891692
     }
   },
   "seen": [
@@ -120,8 +127,11 @@
     "HpKjCnvJbgZ2ymjDvae5ZZ29t21FqECWN8ohWCFcpump",
     "BuorVu99GQ1LHT194YNYRbdXivTCA8o58nz7iji2pump",
     "4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump",
-    "G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump"
+    "G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump",
+    "5xrT8y2KU2YwzipwCMNxxTc8KAGQd4wjtGTc2WyJJCMh",
+    "G2XqmSc8vJpLLwaLVXUeNkxsrhVT8vQ3Pje8MqeDpump",
+    "7Ttmp4xBtErMzxpR6AhuzJjDf7u3YGJtWm5ibPsqpump"
   ],
-  "wins": 42,
+  "wins": 44,
   "losses": 68
 }
