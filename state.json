@@ -1,6 +1,14 @@
 {
-  "balance": 57.036579513399204,
-  "positions": {},
+  "balance": 50.95947490292482,
+  "positions": {
+    "Bwwc9n2mPn1k5rGv6UjAudiPPYmQpSzYevddjdmHpump": {
+      "symbol": "MEOWI",
+      "entry": 0.00016665,
+      "peak": 0.00016665,
+      "size": 5.13,
+      "opened": 1795794803.2177925
+    }
+  },
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
@@ -128,8 +136,10 @@
     "2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump",
     "7Y2CVbnqZRvR5RUvEJ9RQ73fZEfv7ybNcysytAepump",
     "DNgboHpauGZ5KbSptWSkwQyQLSDCQKdoU3qsk9FTpump",
-    "F5LxbqJxAMrvfxLbqPckErmqNyiPzDJMUXnX8vrhpump"
+    "F5LxbqJxAMrvfxLbqPckErmqNyiPzDJMUXnX8vrhpump",
+    "54jKBorvDP4eB7vZnWy1HJfhm4X17pSJCE6o2Lshpump",
+    "Bwwc9n2mPn1k5rGv6UjAudiPPYmQpSzYevddjdmHpump"
   ],
   "wins": 50,
-  "losses": 77
+  "losses": 78
 }
