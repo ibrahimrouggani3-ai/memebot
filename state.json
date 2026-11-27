@@ -1,19 +1,12 @@
 {
-  "balance": 46.532102670095966,
+  "balance": 49.088619772373804,
   "positions": {
     "39nuVgw8RCVC8PgGuuuaa8WoAERA61cTw85oUvBLT2va": {
       "symbol": "COMPUTE",
       "entry": 7.34977e-05,
-      "peak": 7.34977e-05,
+      "peak": 7.987e-05,
       "size": 5.31,
       "opened": 1795802051.2787673
-    },
-    "6J3m4E2AvckGpMypHoBmT9JdPA6QZJ66X9AfzYwWZttc": {
-      "symbol": "rice",
-      "entry": 0.000122816,
-      "peak": 0.0001292,
-      "size": 5.17,
-      "opened": 1795802172.4491487
     }
   },
   "seen": [
@@ -157,8 +150,10 @@
     "8sAxwsNzhRj6LF5npy1HtPir94TzSgP1QaczUmGcpump",
     "HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump",
     "39nuVgw8RCVC8PgGuuuaa8WoAERA61cTw85oUvBLT2va",
-    "6J3m4E2AvckGpMypHoBmT9JdPA6QZJ66X9AfzYwWZttc"
+    "6J3m4E2AvckGpMypHoBmT9JdPA6QZJ66X9AfzYwWZttc",
+    "4WZLGbAp6oEPxFbDcsfADCo1AgYZkfiteQhtM5iwpump",
+    "8LX2fFyENqu1R6bmzk461BH3ZPVbmpCpppe1K7Zcpump"
   ],
-  "wins": 56,
-  "losses": 83
+  "wins": 57,
+  "losses": 85
 }
