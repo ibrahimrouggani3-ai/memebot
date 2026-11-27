@@ -1,5 +1,5 @@
 {
-  "balance": 53.01981962010345,
+  "balance": 57.036579513399204,
   "positions": {},
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
@@ -126,8 +126,10 @@
     "ExpdNM5YykDnGTmyxCH5B3s7mdWi1cEreDvK6ic8pump",
     "GXpQZkap4ExgQTTX4SXfETV7nt1YZKEZSakqos3hpump",
     "2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump",
-    "7Y2CVbnqZRvR5RUvEJ9RQ73fZEfv7ybNcysytAepump"
+    "7Y2CVbnqZRvR5RUvEJ9RQ73fZEfv7ybNcysytAepump",
+    "DNgboHpauGZ5KbSptWSkwQyQLSDCQKdoU3qsk9FTpump",
+    "F5LxbqJxAMrvfxLbqPckErmqNyiPzDJMUXnX8vrhpump"
   ],
-  "wins": 48,
+  "wins": 50,
   "losses": 77
 }
