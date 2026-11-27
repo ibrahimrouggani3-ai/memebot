@@ -106,3 +106,6 @@ time,symbol,address,entry,exit,pnl_pct,pnl_usd,reason,balance_after
 2026-11-26 23:45:17,Vetocat,9J2cy3AfDquDDKqjteYaFSrYEvUAGnb1Qxw8pZQApump,0.000175639,0.0001451,-18.21,-1.13,stop loss,61.16
 2026-11-27 00:37:33,POPBALL,CKiuTwHFMXKBaQ4V1WgsYctsdbLeit3wytXRkphzpump,0.000222907,0.0001845,-18.06,-1.11,stop loss,54.55
 2026-11-27 00:41:35,COOLS,A28uKeoB79ksfCarcDuJzaqE4LqJenPHxxPRR2nApump,7.5245e-05,7.158e-05,-5.82,-0.4,time exit,61.07
+2026-11-27 02:00:18,SHIA,HpKjCnvJbgZ2ymjDvae5ZZ29t21FqECWN8ohWCFcpump,5.40047e-05,5.39e-05,-1.19,-0.07,trailing stop,60.4
+2026-11-27 02:00:18,Kuro,BuorVu99GQ1LHT194YNYRbdXivTCA8o58nz7iji2pump,0.00037067,1.29e-06,-99.66,-6.09,stop loss,60.42
+2026-11-27 02:04:19,Santaball,4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump,0.000769822,0.001046,34.52,2.08,take profit,57.06
