@@ -1,6 +1,14 @@
 {
-  "balance": 35.014857643052906,
-  "positions": {},
+  "balance": 31.514857643052906,
+  "positions": {
+    "6yiZmaeQSW3FUHYjqtzZFNSM6Xy4zJ89XeQRcg6mpump": {
+      "symbol": "TIMMY",
+      "entry": 0.000143117,
+      "peak": 0.0001497,
+      "size": 3.5,
+      "opened": 1795886860.3066833
+    }
+  },
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
@@ -183,7 +191,8 @@
     "HnRPNwcYZFhsuRg5ChqdBEUR7DLx1XrGXdYkuSBqpump",
     "B6JwxRFd5Nomou9v2CELN3rjgwVxCzoAZbZqLHszpump",
     "FvNopjpk7upJ4GghufMrJJ7W8aaH2tdoEozDZtUbiYKD",
-    "F1aGWw6nDzqVYig3zpkALMgwX6PpoDRjfjoyShYdpump"
+    "F1aGWw6nDzqVYig3zpkALMgwX6PpoDRjfjoyShYdpump",
+    "6yiZmaeQSW3FUHYjqtzZFNSM6Xy4zJ89XeQRcg6mpump"
   ],
   "wins": 71,
   "losses": 111
