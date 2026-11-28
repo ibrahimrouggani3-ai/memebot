@@ -156,3 +156,6 @@ time,symbol,address,entry,exit,pnl_pct,pnl_usd,reason,balance_after
 2026-11-28 02:45:57,Midcurve,14SsX1H9qge5qE3MeQK87hygFkmHBQnHxJEHgXkspump,7.47804e-05,0.0001065,40.99,2.15,take profit,50.02
 2026-11-28 02:51:59,JEFFLE,BRRktKPa8m4dMrQ1fT6fLJABQjYUqLaEhPuMHxUvpump,5.29442e-05,4.488e-05,-16.08,-0.8,stop loss,49.22
 2026-11-28 02:55:00,Vicewire,viCEWiReoWxwmRRfGmWmpP1FFdB8Jm8PzZChVJ9dvg6,6.67307e-05,5.435e-05,-19.37,-0.92,stop loss,53.04
+2026-11-28 03:38:41,paired,8dUqZ1dwPZUF2eGAUN4UotMnnrxrxRoS7gCyctFLpump,6.99728e-05,3.048e-06,-95.69,-5.07,stop loss,47.97
+2026-11-28 03:41:42,BTCBALLS,APmirEVL5wkbYVZ88TDdr9cwJ6WfRCWuzm4wQWyzpump,0.0005207559999999999,0.000411,-21.87,-1.05,stop loss,42.6
+2026-11-28 03:43:42,DCTY,FKzLbmXpyk3qxY4j3CbxqwjdtbCWb1HZZttok9AD5dio,7.24473e-05,6.095e-05,-16.71,-0.72,stop loss,46.19
