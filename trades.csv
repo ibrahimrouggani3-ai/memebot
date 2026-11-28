@@ -167,3 +167,5 @@ time,symbol,address,entry,exit,pnl_pct,pnl_usd,reason,balance_after
 2026-11-28 06:41:31,FINGART,WZVWLfThgm14NN8HRDoyiEeXVvdUDMzGMHUS3VLpump,8.59611e-05,7.218e-05,-16.87,-0.74,stop loss,42.95
 2026-11-28 06:46:32,Air,ACP9Kkvh3ShCawmVcEJQ7mr93uNF1uvTP1yvvivApump,5.17625e-05,4.25e-05,-18.72,-0.8,stop loss,38.27
 2026-11-28 06:48:33,SPSC,EjdrRG2si1FQ3Bme5g6WSYNHJDrsKUrbGB4Z5xaopump,9.00314e-05,0.0001171,28.77,1.11,take profit,43.26
+2026-11-28 08:03:16,USD1,B29od4bd54VAVAqJFToRKkKJadUGK5v8pkAVb5uvpump,6.36502e-05,6.54e-05,1.72,0.07,trailing stop,35.94
+2026-11-28 08:07:17,USD1,8Y24KBnY9gaNWDaxohxtEU1gxESvfwdYeGFuHJKpump,7.44168e-05,0.0001044,38.89,1.36,take profit,40.8

@@ -1,6 +1,14 @@
 {
-  "balance": 43.2556871637535,
-  "positions": {},
+  "balance": 40.80131207454826,
+  "positions": {
+    "HmGQsYJyeiWrV6jABUY2Cb3bEmVxwk6LzVxCchsCpump": {
+      "symbol": "WLFI",
+      "entry": 0.00025088400000000005,
+      "peak": 0.0002634,
+      "size": 3.89,
+      "opened": 1795852514.1708496
+    }
+  },
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
@@ -169,8 +177,11 @@
     "ATbAsdCwrhhVg23DRnWpjqx6kx7ivoK5o8ysNmu1pump",
     "WZVWLfThgm14NN8HRDoyiEeXVvdUDMzGMHUS3VLpump",
     "ACP9Kkvh3ShCawmVcEJQ7mr93uNF1uvTP1yvvivApump",
-    "EjdrRG2si1FQ3Bme5g6WSYNHJDrsKUrbGB4Z5xaopump"
+    "EjdrRG2si1FQ3Bme5g6WSYNHJDrsKUrbGB4Z5xaopump",
+    "B29od4bd54VAVAqJFToRKkKJadUGK5v8pkAVb5uvpump",
+    "HmGQsYJyeiWrV6jABUY2Cb3bEmVxwk6LzVxCchsCpump",
+    "8Y24KBnY9gaNWDaxohxtEU1gxESvfwdYeGFuHJKpump"
   ],
-  "wins": 65,
+  "wins": 67,
   "losses": 103
 }
