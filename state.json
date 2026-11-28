@@ -1,12 +1,19 @@
 {
-  "balance": 33.57292985490236,
+  "balance": 31.549362464293274,
   "positions": {
-    "q9VM1LRTCB7P7TNLRKyZJUPtdoH3e9FRuVFyY9Xpump": {
-      "symbol": "nothing",
-      "entry": 8.22645e-05,
-      "peak": 8.22645e-05,
-      "size": 3.39,
-      "opened": 1795876200.3853197
+    "5jjJWZfTTaZtG74zSpiEZbMBHNM2jieHEXM2UZvapump": {
+      "symbol": "GROKSIE",
+      "entry": 5.3631e-05,
+      "peak": 6.052e-05,
+      "size": 3.42,
+      "opened": 1795878978.923648
+    },
+    "HnRPNwcYZFhsuRg5ChqdBEUR7DLx1XrGXdYkuSBqpump": {
+      "symbol": "Artcoin",
+      "entry": 0.000173821,
+      "peak": 0.0001776,
+      "size": 3.5,
+      "opened": 1795879280.1480699
     }
   },
   "seen": [
@@ -185,8 +192,11 @@
     "8yUDvFWAHXBXSdgcRJZ7cWtFb1DZ1dwaQeYhb7kEpump",
     "4qnvryLCPUQ1kLZMsK44Ra2H19tRGzijbbhfDmSLpump",
     "EvN4RDyoqUTpCcrvz5QTAdHVqypgxV4MCR77Bfnjpump",
-    "q9VM1LRTCB7P7TNLRKyZJUPtdoH3e9FRuVFyY9Xpump"
+    "q9VM1LRTCB7P7TNLRKyZJUPtdoH3e9FRuVFyY9Xpump",
+    "6sZYmvbTzXyLe7jr2om3Vmo6UPryLmQUko1Hgj89pump",
+    "5jjJWZfTTaZtG74zSpiEZbMBHNM2jieHEXM2UZvapump",
+    "HnRPNwcYZFhsuRg5ChqdBEUR7DLx1XrGXdYkuSBqpump"
   ],
-  "wins": 69,
+  "wins": 71,
   "losses": 106
 }
