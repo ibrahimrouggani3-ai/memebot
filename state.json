@@ -1,6 +1,14 @@
 {
-  "balance": 47.52173873854109,
-  "positions": {},
+  "balance": 42.80036157750892,
+  "positions": {
+    "9G9Ssh55SZEoniFjMrMefug9fBy67bUvHzWAxb5Ypump": {
+      "symbol": "Memeball",
+      "entry": 0.000315019,
+      "peak": 0.0003555,
+      "size": 4.76,
+      "opened": 1795826241.4964497
+    }
+  },
   "seen": [
     "GkSZVKcXcgodewdZd5CbGxFJoUUcazrf1GayrNv3pump",
     "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
@@ -152,8 +160,10 @@
     "GXjSWDoMQkDEbhon9ALxz8chUUsVKg3x8V3NajjDpump",
     "3WsqUNArNSh5pYt6eTKbQ7uUJDgkPtFEA2XFvdEWpump",
     "Xb6V46U9hHHxiJnoAFxiEqEh59owzdt1ZL9q5zpVSoL",
-    "659ziXQiNko5cdGzPaBKVu81ahHzZMTFKBcNxe5ALXkG"
+    "659ziXQiNko5cdGzPaBKVu81ahHzZMTFKBcNxe5ALXkG",
+    "AvvXpCVph4PtJ5urfhetPkdZYh8o4uW7CawUA2MK8hFT",
+    "9G9Ssh55SZEoniFjMrMefug9fBy67bUvHzWAxb5Ypump"
   ],
-  "wins": 59,
+  "wins": 60,
   "losses": 92
 }

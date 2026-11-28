@@ -150,3 +150,4 @@ time,symbol,address,entry,exit,pnl_pct,pnl_usd,reason,balance_after
 2026-11-27 22:36:26,ZERO,3WsqUNArNSh5pYt6eTKbQ7uUJDgkPtFEA2XFvdEWpump,0.000890315,0.0008492,-5.57,-0.23,time exit,49.22
 2026-11-27 23:34:43,Sol,Xb6V46U9hHHxiJnoAFxiEqEh59owzdt1ZL9q5zpVSoL,0.000141198,0.0001186,-16.84,-0.83,stop loss,48.39
 2026-11-27 23:42:47,Maebashi,659ziXQiNko5cdGzPaBKVu81ahHzZMTFKBcNxe5ALXkG,5.80144e-05,4.81e-05,-17.92,-0.87,stop loss,47.52
+2026-11-28 00:36:20,STEADY,AvvXpCVph4PtJ5urfhetPkdZYh8o4uW7CawUA2MK8hFT,0.00019493,0.0001985,0.81,0.04,trailing stop,47.56
