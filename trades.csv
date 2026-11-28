@@ -173,3 +173,4 @@ time,symbol,address,entry,exit,pnl_pct,pnl_usd,reason,balance_after
 2026-11-28 08:49:17,WLFI,HmGQsYJyeiWrV6jABUY2Cb3bEmVxwk6LzVxCchsCpump,0.00025088400000000005,0.0002601,2.64,0.1,trailing stop,46.2
 2026-11-28 13:29:55,FlipFlop,8yUDvFWAHXBXSdgcRJZ7cWtFb1DZ1dwaQeYhb7kEpump,5.44188e-05,2.242e-06,-95.92,-4.43,stop loss,41.77
 2026-11-28 13:34:57,hold,4qnvryLCPUQ1kLZMsK44Ra2H19tRGzijbbhfDmSLpump,5.45703e-05,1.408e-06,-97.45,-4.07,stop loss,37.69
+2026-11-28 14:35:02,John,EvN4RDyoqUTpCcrvz5QTAdHVqypgxV4MCR77Bfnjpump,0.00010524199999999999,8.569e-05,-19.39,-0.73,stop loss,33.57
