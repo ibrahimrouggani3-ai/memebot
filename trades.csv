@@ -163,3 +163,4 @@ time,symbol,address,entry,exit,pnl_pct,pnl_usd,reason,balance_after
 2026-11-28 04:44:19,DAW,6NZANPwagg8qLrfi2mk9HyCXWWAVnhsv4CiqWuHPpump,5.3792600000000004e-05,4.473e-05,-17.68,-0.74,stop loss,41.75
 2026-11-28 04:46:19,PRISMEICE,8N6WF11pLUUeUu8b1HbnDJHTzyL4bbr8YRdPS6Znpump,0.000101808,9.996e-05,-2.8,-0.1,trailing stop,45.38
 2026-11-28 04:52:21,RICE,3rVr2RBzEXXKf1cVvZ6HBvFg2XmBK4iMgZv9q9q4pump,0.00014443,0.0001144,-21.58,-0.98,stop loss,44.4
+2026-11-28 05:40:11,BITCOINU,ATbAsdCwrhhVg23DRnWpjqx6kx7ivoK5o8ysNmu1pump,0.00123523,0.001045,-16.25,-0.72,stop loss,43.68
