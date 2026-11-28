@@ -176,3 +176,6 @@ time,symbol,address,entry,exit,pnl_pct,pnl_usd,reason,balance_after
 2026-11-28 14:35:02,John,EvN4RDyoqUTpCcrvz5QTAdHVqypgxV4MCR77Bfnjpump,0.00010524199999999999,8.569e-05,-19.39,-0.73,stop loss,33.57
 2026-11-28 15:13:18,nothing,q9VM1LRTCB7P7TNLRKyZJUPtdoH3e9FRuVFyY9Xpump,8.22645e-05,0.0001081,30.09,1.02,take profit,37.98
 2026-11-28 15:21:20,Bedlington,6sZYmvbTzXyLe7jr2om3Vmo6UPryLmQUko1Hgj89pump,0.000661853,0.0007541,12.8,0.49,trailing stop,35.05
+2026-11-28 16:03:59,GROKSIE,5jjJWZfTTaZtG74zSpiEZbMBHNM2jieHEXM2UZvapump,5.3631e-05,4.434e-05,-18.15,-0.62,stop loss,31.2
+2026-11-28 16:03:59,TIMMY,B6JwxRFd5Nomou9v2CELN3rjgwVxCzoAZbZqLHszpump,0.000106151,8.527e-05,-20.47,-0.64,stop loss,33.7
+2026-11-28 16:04:59,Artcoin,HnRPNwcYZFhsuRg5ChqdBEUR7DLx1XrGXdYkuSBqpump,0.000173821,0.0001396,-20.49,-0.72,stop loss,36.49
